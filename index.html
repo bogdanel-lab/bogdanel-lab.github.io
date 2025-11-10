@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Site-ul meu gratuit</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Bine ai venit!</h1>
+    <p>Acesta este primul meu site făcut gratuit pe GitHub Pages 🎉</p>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>Despre mine</h2>
+      <p>Sunt un viitor antreprenor și lucrez să dezvolt un business mare în livrări.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>📧 Email: exemplu@email.com</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Numele tău</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
